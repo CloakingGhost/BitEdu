@@ -13,7 +13,8 @@ public class Class {
 //		hr
 //		hr
 //
-//		CloackingGhost	cj92978364
+//		CloakingGhost	cj92978364
+//		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
 //		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(깃허브 이클립스 토큰)
 		/*
 		  잘하는 사람 주변으로 가라
