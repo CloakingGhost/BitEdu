@@ -14,7 +14,7 @@ public class Class {
 //		hr
 //
 //		CloackingGhost	cj92978364
-//		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(깃허브 이클립스 토큰)
+//		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(깃허브 이클립스 토큰)
 		/*
 		  잘하는 사람 주변으로 가라
 		  구글링 잘하는 사람 
@@ -23,7 +23,6 @@ public class Class {
 		  타자속도가 나와야함
 		  지원동기를 잊지마라
 		  
-		  시험 목요일 점심이후 JDBC까지(파일 네트워크 시험끝나고 배움)
 		  
 		  
 		  
