@@ -17,7 +17,6 @@ public class IOProblem {
 //		단어의 기준 [., '"]로 구분되는 토큰
 //		대소문자 구분 없음
 //		단수 복수 단어는 다른단어
-		int findWord = 0;
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedReader file = new BufferedReader(new FileReader("e:/temp/dorian.txt"));
@@ -27,27 +26,29 @@ public class IOProblem {
 		List<String> al = new ArrayList<String>();
 
 		try {// 파일 부르기
-			while ((line = br.readLine()) != null) {
+			while ((line = file.readLine()) != null) {
 				st = new StringTokenizer(line, "., '\"");
 				while (st.hasMoreTokens()) {
 					al.add(st.nextToken());
 				}
 			}
-			
-			while(true) {
+
+			while (true) {
+				int findWord = 0;
 				System.out.print("찾고싶은 단어가 무엇입니까?");
 				brWord = br.readLine();
-				for(String al1 : al) {
-					if(al1.equalsIgnoreCase(brWord)) {
+				for (String al1 : al) {
+					if (al1.equalsIgnoreCase(brWord)) {
 						findWord++;
 					}
 				}
-				if (findWord != 0)
+				if (findWord != 0) {
 					System.out.printf("%d번 사용됨\n", findWord);
-				else
+				} else {
 					System.out.println("한번도 사용한적 없음");
+				}
 			}
-			
+
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
