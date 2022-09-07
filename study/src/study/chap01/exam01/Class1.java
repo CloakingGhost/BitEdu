@@ -1,8 +1,14 @@
 package study.chap01.exam01;
 
-public class Class {
+public class Class1 {
+	int solution(int left, int right) {
+	    int answer = 0;
+	    return answer;
+	}
 
 	public static void main(String[] args) {
+		
+		
 		System.out.print("Hello2");
 //		root
 //		1234

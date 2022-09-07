@@ -8,7 +8,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-
 class Members {
 	private int userID;
 	private String userPwd;
